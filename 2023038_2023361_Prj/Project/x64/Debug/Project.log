@@ -1,0 +1,81 @@
+﻿  CppCLR_WinFormsProject.cpp
+C:\Users\abdul\Desktop\(2023038_2023361)_Prj\Project\Form1.h(132,58): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\abdul\Desktop\(2023038_2023361)_Prj\Project\Form1.h(150,42): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\abdul\Desktop\(2023038_2023361)_Prj\Project\Form1.h(151,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\abdul\Desktop\(2023038_2023361)_Prj\Project\Form1.h(154,42): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\abdul\Desktop\(2023038_2023361)_Prj\Project\Form1.h(155,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\abdul\Desktop\(2023038_2023361)_Prj\Project\Form1.h(236,24): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\abdul\Desktop\(2023038_2023361)_Prj\Project\Form1.h(308,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\abdul\Desktop\(2023038_2023361)_Prj\Project\Form1.h(749,42): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\abdul\Desktop\(2023038_2023361)_Prj\Project\Form1.h(750,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\abdul\Desktop\(2023038_2023361)_Prj\Project\Form1.h(756,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\abdul\Desktop\(2023038_2023361)_Prj\Project\Form1.h(757,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\abdul\Desktop\(2023038_2023361)_Prj\Project\Form1.h(760,30): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\abdul\Desktop\(2023038_2023361)_Prj\Project\Form1.h(761,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\abdul\Desktop\(2023038_2023361)_Prj\Project\Form1.h(765,43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Users\abdul\Desktop\(2023038_2023361)_Prj\Project\Form1.h(766,45): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(4537,18): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(4537,18):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\abdul\Desktop\(2023038_2023361)_Prj\Project\Form1.h(557,19):
+  	see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  		C:\Users\abdul\Desktop\(2023038_2023361)_Prj\Project\Form1.h(557,19):
+  		see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'CppCLRWinFormsProject::Form1::openToolStripMenuItem_Click'
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2600,17):
+  	see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2756,18):
+  	see reference to function template instantiation '_OutIt std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Project.vcxproj -> C:\Users\abdul\Desktop\(2023038_2023361)_Prj\x64\Debug\Project.exe

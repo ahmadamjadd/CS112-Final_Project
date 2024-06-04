@@ -1,0 +1,54 @@
+  Project.Form1.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Project, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class CppCLRWinFormsProject.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Drawing.Bitmap bmp : Public
+    Double** dataSet : Public
+    Double** result : Public
+    Double** permutated_matrix : Public
+    Double** result_permutated : Public
+    Double* signature_values : Public
+    Double** sorted_matrix : Public
+    Double** sorted_coefficient_matrix : Public
+    Int32** result_dis : Public
+    Int32** result_permutated_dis : Public
+    Int32** sorted_discrete_matrix : Public
+    Int32 num_of_cols : Public
+    Int32 num_of_rows : Public
+    Boolean is_file_read : Public
+    Boolean is_sig_calculated : Public
+    Boolean is_permutated : Public
+    Boolean is_permutated_sorted_discritized : Public
+    Boolean is_permutated_shuffled_discritized : Public
+    Boolean is_permutated_discrtized : Public
+    Boolean is_discrtized : Public
+    System.Drawing.Color newColor : Public
+  Methods:
+    Bitmap_Image_Generator(Int32**, Int32, Int32, PictureBox): PrivateScope, Public, HideBySig
+    max_value(Double**, Int32, Int32): PrivateScope, Public, HideBySig
+    green_shade(Int32**, Double**, Int32, Int32, PictureBox): PrivateScope, Public, HideBySig
+    zoom_in(PictureBox): PrivateScope, Public, HideBySig
+    zoom_out(PictureBox): PrivateScope, Public, HideBySig
+    calculateMean(Double* IsConst IsConst, Int32): PrivateScope, Public, HideBySig
+    calculatePearsonCoefficient(Double* IsConst IsConst, Double* IsConst IsConst, Int32): PrivateScope, Public, HideBySig
+    DiscretizeMatrix(Double**, Int32**, Int32, Int32): PrivateScope, Public, HideBySig
+    Find_Signature_Values(Double**, Double*, Int32, Int32): PrivateScope, Public, HideBySig
+    CalPearsonCoefficeint(Double**, Double**, Int32, Int32): PrivateScope, Public, HideBySig
+    sort_permutated_matrix(Double**, Double*, Double**, Int32, Int32): PrivateScope, Public, HideBySig
+    shuffle_matrix(Double**, Double**, Int32, Int32): PrivateScope, Public, HideBySig
