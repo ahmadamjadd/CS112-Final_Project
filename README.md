@@ -64,3 +64,12 @@ Contributions to this project are welcome! If you find any issues or have sugges
 ## Acknowledgements
 
 We would like to express our sincere gratitude to our instructor, Dr. Zahid Halim, for his guidance and support throughout this project. His mentorship enabled us to push the boundaries of our knowledge and skills, resulting in a successful and rewarding learning experience.
+
+## Team Members
+
+This project was a collaborative effort between two team members:
+
+1. **Muhammad Ahmad Amjad (2023361)**
+
+2. **Abdullah Ejaz Janjua (2023038)**
+   - [GitHub]([https://github.com/Abdullahjanjua](https://github.com/abdullahejazjanjua))
