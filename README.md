@@ -72,4 +72,4 @@ This project was a collaborative effort between two team members:
 1. **Muhammad Ahmad Amjad (2023361)**
 
 2. **Abdullah Ejaz Janjua (2023038)**
-   - [GitHub]([https://github.com/Abdullahjanjua](https://github.com/abdullahejazjanjua))
+   - [GitHub](https://github.com/abdullahejazjanjua)
